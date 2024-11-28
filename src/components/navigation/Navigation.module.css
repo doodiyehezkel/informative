@@ -1,0 +1,17 @@
+.nav-container {
+    background-color: black;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.nav-container a {
+    color: white;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.nav-container a:hover {
+    color: lightblue;
+}

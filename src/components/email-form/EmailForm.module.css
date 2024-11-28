@@ -1,0 +1,66 @@
+.email-form-container { 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 35%;
+    margin: 30px auto;
+    padding: 3.5rem;
+    background-color: #f7ae1c;
+    border-radius: 5px;
+}
+
+.email-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-form div {
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.email-form div input ,.email-form div textarea {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.email-form div textarea {
+    resize: none;
+    height: 100px;
+}
+
+.email-form div input:focus,
+.email-form div textarea:focus {
+    outline: none;
+}
+
+.email-form-title {
+    text-align: center;
+}
+
+.email-form-submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.email-form-submit input[type="submit"] {
+    width: 40%;
+    height: 35px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.email-form-submit input[type="submit"]:hover {
+    color: black;
+    background-color: white;
+}
+
+
+.email-form-submit-result {
+    text-align: center;
+}
+
+
