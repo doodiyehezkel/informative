@@ -1,0 +1,43 @@
+.card {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 10rem;
+    height: 250px;
+    padding: 2rem;
+    border: 5px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    width: 50px;
+}
+
+.info-container {
+    height: 60%;
+}
+
+.title {
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    background-color: #f7ae1c;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
