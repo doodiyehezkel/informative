@@ -41,3 +41,12 @@
     border: 1px solid black;
     cursor: pointer;
 }
+
+.card:hover {
+    animation: card 0.3s both ;
+}
+
+@keyframes card {
+    from {scale: 1.0;}
+    to {scale: 1.1;}
+}

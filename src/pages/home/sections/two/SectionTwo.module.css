@@ -16,6 +16,12 @@
 }
 
 
-.section-2 h3 {
+.section-2 p {
     text-align: center;
+    margin: 0.5rem;
 }
+
+.card-list {
+    margin-top: 30px;
+}
+

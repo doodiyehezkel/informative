@@ -10,20 +10,25 @@
 
 .call-me {
     margin-left: 30px;
-    background-color: #f7ae1c;
-    padding: 0.3rem;
-    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
 }
 
 .call-me img {
     width: 25px;
 }
 
-.call-me a{
+.call-me .phone{
     display: flex;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
     color:black;
     font-weight: 900;
+    background-color: #f7ae1c;
+    border-radius: 5px;
+    padding: 0.3rem;
 }
