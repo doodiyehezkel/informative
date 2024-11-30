@@ -64,3 +64,18 @@
 }
 
 
+@media screen and (max-width: 700px) {
+    .email-form-container {
+        padding:1rem;
+        width:70%;
+    }
+    .email-form-submit input[type="submit"] {
+        width: 60%;
+    }
+    .email-form-submit input[type="submit"]:hover {
+        color: white;
+        background-color: black;
+    }
+}
+
+
