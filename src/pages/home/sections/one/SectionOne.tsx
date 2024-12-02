@@ -1,19 +1,16 @@
-import checkMarkSvg from '../../../../assets/svg/checkmark.svg'
 import style from './SectionOne.module.css'
 export default function SectionOne() {
     return (
         <section className={style['section-1-container']}>
             <div className={style['section-overlay']}></div>
             <div className={style['section-1']}>
-                <h1>בית חכם – העתיד בבית שלכם!</h1>
-                <h2>בית חכם, אזעקות, מצלמות אבטחה, אינטרקום, מרכזיות.</h2>
-                <ul>
-                    <li> <img src={checkMarkSvg} alt="checkMarkSvg" /> <span>חברה מוסמכת עם 20 שנות ניסיון</span>  </li>
-                    <li> <img src={checkMarkSvg} alt="checkMarkSvg" /> <span>מתקין בעל ניסיון וותק רב</span></li>
-                    <li> <img src={checkMarkSvg} alt="checkMarkSvg" /> <span>מחירים אטרקטיבים בפריסה ארצית</span></li>
-                    <li> <img src={checkMarkSvg} alt="checkMarkSvg" /> <span>ייעוץ ראשוני ללא עלות</span></li>
-                    <li> <img src={checkMarkSvg} alt="checkMarkSvg" /> <span>זמינות מיידית 24/7 בכל הארץ</span></li>
-                </ul>
+                <h1>ברוכים הבאים לעולם של אינטרנט מהיר ויציב!</h1>
+                <p className={style['p1']}>
+                    בעידן הדיגיטלי של היום, חיבור מהיר ואמין הוא הכרחי בבית ובמשרד. אנחנו מתמחים בתכנון, פריסה ואופטימיזציה של רשתות אינטרנט שמתאימות בדיוק לצרכים שלכם. השירותים שלנו מבטיחים חוויית גלישה חלקה, עבודה יעילה וסטרימינג ללא הפרעות – בכל זמן ובכל מקום.
+                </p>
+                <p>
+                    אנחנו מבינים שכל בית ומשרד הם שונים. לכן, אנו מתכננים את הרשתות שלנו כך שיתאימו באופן מושלם למבנה, לגודל ולצרכים שלכם. החל מפריסת רשתות Wi-Fi חזקות בכל פינה ועד לחיבור קווי מהיר ואמין – אנו כאן כדי להעניק לכם פתרון מותאם אישית.
+                </p>
             </div>
         </section>
     )
