@@ -8,19 +8,18 @@ import checkMarkSvg from '../../../../assets/svg/checkmark.svg'
 const cardList = [
     {
         imgSrc: intercomSvg,
-        title: 'אינטרקום',
-        text: 'שרותי אינטרקום לעסק ולבית.'
+        title: 'תקשורת',
+        text: 'פתרונות תקשורת לבית ולמשרד.'
     },
-    {
-        imgSrc: protectionSvg,
-        title: 'מערכות אזעקה',
-        text: 'מערכות אזעקה מתקדמות.'
-    }
-    ,
     {
         imgSrc: securityCamera,
         title: 'מצלמות אבטחה',
         text: 'התקנת מצלמות לבית ולעסק.'
+    },
+    {
+        imgSrc: protectionSvg,
+        title: 'יעוץ חינם',
+        text: 'יעוץ ראשוני חינם לבית ולעסק.'
     }
 ]
 

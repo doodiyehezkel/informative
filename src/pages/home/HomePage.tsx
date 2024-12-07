@@ -4,7 +4,7 @@ import SectionOne from './sections/one/SectionOne'
 import SectionThree from './sections/three/SectionThree'
 import SectionTwo from './sections/two/SectionTwo'
 
-
+import style from './HomePage.module.css'
 
 export default function HomePage() {
     return (
@@ -12,8 +12,7 @@ export default function HomePage() {
             <SectionOne />
             <SectionTwo />
             <SectionThree />
-            
-            <section >
+            <section className={style['email-form']} >
                 <EmailForm />
             </section>
            

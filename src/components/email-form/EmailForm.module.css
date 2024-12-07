@@ -1,8 +1,6 @@
 .email-form-container { 
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    width: 35%;
-    margin: 30px auto;
-    padding: 3.5rem;
+    padding: 1.5rem;
     background-color: #f7ae1c;
     border-radius: 5px;
 }
@@ -65,10 +63,11 @@
 
 
 @media screen and (max-width: 700px) {
-    .email-form-container {
-        padding:1rem;
-        width:70%;
+
+    .email-form-container  {
+        padding: 0.5rem;
     }
+
     .email-form-submit input[type="submit"] {
         width: 60%;
     }

@@ -1,0 +1,11 @@
+.email-form {
+    margin: 5rem auto;
+    width: 50%;
+}
+
+
+@media screen and (max-width:700px) {
+    .email-form {
+        width: 80%;
+    }
+}

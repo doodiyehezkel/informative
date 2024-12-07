@@ -1,0 +1,16 @@
+.phone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    color:black;
+    font-weight: 900;
+    background-color: #f7ae1c;
+    border-radius: 5px;
+    padding: 0.3rem;
+    width: 130px;
+}
+
+.phone img {
+    width: 25px;
+}
