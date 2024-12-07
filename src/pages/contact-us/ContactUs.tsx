@@ -23,13 +23,13 @@ export default function ContactUs() {
                     <p>
                         נשמח לשוחח אתכם!
                     </p>
-                    <p>
-                    מספר הטלפון שלנו: <PhoneLink />
+                    <p className={style['phone-link']}>
+                        מספר הטלפון שלנו: <PhoneLink />
                     </p>
                 </section>
                 <section className={style['section-3']}>
                     <h3>
-                       WhatApp 
+                        WhatApp
                     </h3>
                     <p>
                         מעדיפים לכתוב לנו הודעה?

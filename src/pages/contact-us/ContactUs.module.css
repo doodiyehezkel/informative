@@ -28,15 +28,9 @@
     width: 25px;
 }
 
-.section-1 {}
-
-.section-2 {}
-
-.section-3 {}
-
-.section-4 {}
-
-
+.phone-link {
+    width: 40%;
+}
 
 @media screen and (max-width: 700px) {
     .email-form {
