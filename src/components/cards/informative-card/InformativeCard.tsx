@@ -1,7 +1,8 @@
+import { Link } from 'react-router'
 import { CardType } from '../../../types/card'
-import style from './Card.module.css'
+import style from './InformativeCard.module.css'
 
-export default function Card ({card} : {card: CardType}) {
+export default function InformativeCard ({card} : {card: CardType}) {
     return (
         <div className={style['card']}>
             <div className={style['icon-container']}>
@@ -12,7 +13,7 @@ export default function Card ({card} : {card: CardType}) {
                 <p className={style['text']}>{card.text}</p>
             </div>
             <div className={style['button-container']}>
-                <button className={style['button']}>למידע נוסף</button>
+                <Link className={style['button']} to={card.moreInfo}>למידע נוסף</Link>
             </div>
         </div>
     )

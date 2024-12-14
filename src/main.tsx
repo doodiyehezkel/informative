@@ -11,11 +11,13 @@ import App from './App.tsx'
 
 import HomePage from './pages/home/HomePage.tsx'
 import ContactUs from './pages/contact-us/ContactUs.tsx'
+import SecurityCamerasPage from './pages/security-cameras/SecurityCamerasPage.tsx'
 
 const router = createHashRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
         <Route index element={<HomePage />} />
+        <Route path='security-cameras' element={<SecurityCamerasPage />} />
         <Route path='contact-us' element={<ContactUs />} />
     </Route>
   )

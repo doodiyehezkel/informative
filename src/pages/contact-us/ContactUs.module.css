@@ -1,6 +1,4 @@
 .contact-us-container {
-    min-height: 100dvh;
-    width: 100dvw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -8,13 +6,6 @@
     gap: 10rem;
     background-color: #F7F7F7;
 }
-
-
-.contact-us-info,
-.email-form {
-    margin-top: 50px;
-}
-
 
 .contact-us-info {
     padding-right: 3rem;
@@ -41,5 +32,9 @@
 
     .contact-us-container {
         gap: 15px;
+    }
+
+    .phone-link {
+        width: 45%;
     }
 }

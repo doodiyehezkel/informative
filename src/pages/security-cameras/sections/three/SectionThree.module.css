@@ -1,0 +1,14 @@
+.section-3 {
+    padding: 2rem 5rem;
+    background-color: #F7F7F7;
+}
+
+@media screen and (max-width:700px) {
+
+    .section-3{
+        padding: 1rem;
+    }
+    .location-list {
+        padding: 0.5rem;
+    }
+}

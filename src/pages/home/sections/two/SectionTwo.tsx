@@ -2,24 +2,27 @@ import style from './SectionTwo.module.css'
 import intercomSvg from '../../../../assets/svg/intercom.svg'
 import protectionSvg from '../../../../assets/svg/protection.svg'
 import securityCamera from '../../../../assets/svg/security-camera.svg'
-import CardList from '../../../../components/cards/card-list/CardList'
+import InformativeCardList from '../../../../components/cards/informative-card-list/InformativeCardList'
 import checkMarkSvg from '../../../../assets/svg/checkmark.svg'
 
 const cardList = [
     {
         imgSrc: intercomSvg,
         title: 'תקשורת',
-        text: 'פתרונות תקשורת לבית ולמשרד.'
+        text: 'פתרונות תקשורת לבית ולמשרד.',
+        moreInfo :''
     },
     {
         imgSrc: securityCamera,
         title: 'מצלמות אבטחה',
-        text: 'התקנת מצלמות לבית ולעסק.'
+        text: 'התקנת מצלמות לבית ולעסק.',
+        moreInfo :'security-cameras'
     },
     {
         imgSrc: protectionSvg,
         title: 'יעוץ חינם',
-        text: 'יעוץ ראשוני חינם לבית ולעסק.'
+        text: 'יעוץ ראשוני חינם לבית ולעסק.',
+        moreInfo :'contact-us'
     }
 ]
 
@@ -56,7 +59,7 @@ export default function SectionOne() {
                 </ol>
             </div>
             <div className={style['card-list']}>
-                <CardList cardList={cardList} />
+                <InformativeCardList cardList={cardList} />
             </div>
         </section>
     )

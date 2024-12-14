@@ -11,6 +11,10 @@ const navItems = [
         text: 'דף הבית'
     },
     {
+        path: 'security-cameras',
+        text: 'מצלמות אבטחה'
+    },
+    {
         path: 'contact-us',
         text: 'צרו קשר'
     }
@@ -31,7 +35,7 @@ export default function Navigation() {
                 }
             </nav>
             :
-            <div>
+            <>
                 <img onClick={() => setIsMobileManuOpen(prev => { return !prev })} className={style['mobile-nav-container-manu']} src={hamburgerMenuSvg} alt="hamburgerMenuSvg" />
                 {
                     isMobileManuOpen &&
@@ -45,7 +49,7 @@ export default function Navigation() {
                         }
                     </nav>
                 }
-            </div>
+            </>
     )
 }
 
