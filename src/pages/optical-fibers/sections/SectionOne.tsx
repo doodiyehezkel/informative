@@ -12,8 +12,6 @@ export default function SectionOne() {
                     </p>
 
                 </section>
-
-
                 <section>
                     <h3>
                         מה הם סיבים אופטיים?

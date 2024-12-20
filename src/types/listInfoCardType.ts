@@ -1,4 +1,4 @@
-export type SecurityCameraCardType = {
+export type ListInfoCardType = {
     imgSrc:string
     name:string
     description:string

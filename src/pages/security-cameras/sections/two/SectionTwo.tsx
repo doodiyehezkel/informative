@@ -1,4 +1,4 @@
-import SecurityCameraCardList from "../../../../components/cards/security-camera-card-list/SecurityCameraCardList";
+import ListInfoCardList from "../../../../components/cards/list-informative-card-list/ListInfoCardList";
 
 import domeCameraImage from '../../../../assets/images/camera/dome-camera.jpg'
 import bulletCameraImage from '../../../../assets/images/camera/bullet-camera.jpg'
@@ -61,7 +61,7 @@ export default function SectionTwo() {
     return (
         <section className={style['section-two']}>
             <h1 className={style['title']}>סוגי מצלמות</h1>
-            <SecurityCameraCardList securityCameraCardList={securityCameraCardList} />
+            <ListInfoCardList listInformativeCardList={securityCameraCardList} />
         </section>
     )
 }

@@ -1,23 +1,23 @@
-import { SecurityCameraCardType } from '../../../types/securityCameraCard'
-import style from './SecurityCameraCard.module.css'
+import { ListInfoCardType } from '../../../types/listInfoCardType'
+import style from './ListInfoCard.module.css'
 
-export default function SecurityCameraCard(securityCameraCardType:SecurityCameraCardType) {
+export default function ListInfoCard(listInfoCard:ListInfoCardType) {
     return (
         <div className={style['card']}>
             <div className={style['image']}>
-                <img src={securityCameraCardType.imgSrc} alt="securty-camera-image" />
+                <img src={listInfoCard.imgSrc} alt="securty-camera-image" />
             </div>
             <div className={style['info']}>
                 <div className={style['title']}>
-                    <h2>{securityCameraCardType.name}</h2>
+                    <h2>{listInfoCard.name}</h2>
                 </div>
                 <div className={style['description']}>
-                    <h3>{securityCameraCardType.description}</h3>
+                    <h3>{listInfoCard.description}</h3>
                 </div>
                 <div className={style['info-list']}>
                     <ol>
                         {
-                            securityCameraCardType.infoList.map(item => {
+                            listInfoCard.infoList.map(item => {
                                 return (
                                     <li>{item}</li>
                                 )
