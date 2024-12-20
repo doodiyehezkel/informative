@@ -1,0 +1,67 @@
+.background-img {
+    background-image: url('../../../assets/images/fibers/OpticalFibers.jpeg');
+    padding: 0 10rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    padding-top: 75px;
+}
+
+.overlay{
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    background-color: #363636;
+    height: 100%;
+    width: 100%;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    width: 95%;
+    margin: auto;
+    color: #f7ae1c;
+    position: relative;
+    font-weight: 600;
+}
+
+.article h1 {
+    font-size: 2rem;
+}
+
+.article ol {
+    padding: 0 1rem;
+    margin: 0;
+}
+
+.article ol li {
+    margin-bottom: 0.5rem;
+}
+
+.article h3 {
+    text-decoration: underline;
+    margin-bottom: 0.5rem;
+}
+
+
+.article section {
+    background-color: rgba(255, 255, 255, 0.099);
+    padding: 3rem;
+    font-size: large;
+}
+
+@media screen and (max-width: 700px) {
+
+    .background-img {
+        padding: 1rem 1rem;
+        
+    }
+    
+}

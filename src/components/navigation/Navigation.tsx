@@ -11,6 +11,10 @@ const navItems = [
         text: 'דף הבית'
     },
     {
+        path: 'optical-fibers',
+        text: 'סיבים אופטיים'
+    },
+    {
         path: 'security-cameras',
         text: 'מצלמות אבטחה'
     },
