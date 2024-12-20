@@ -10,7 +10,7 @@ const cardList = [
         imgSrc: intercomSvg,
         title: 'תקשורת',
         text: 'פתרונות תקשורת לבית ולמשרד.',
-        moreInfo :''
+        moreInfo :'network-cables'
     },
     {
         imgSrc: securityCamera,
