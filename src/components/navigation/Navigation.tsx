@@ -12,7 +12,7 @@ const navItems = [
     },
     {
         path: 'network-cables',
-        text: 'כבלי רשת'
+        text: 'תקשורת קווית'
     },
     {
         path: 'equipment',
