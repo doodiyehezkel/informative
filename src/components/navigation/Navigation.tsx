@@ -15,6 +15,10 @@ const navItems = [
         text: 'כבלי רשת'
     },
     {
+        path: 'equipment',
+        text: 'ציוד'
+    },
+    {
         path: 'optical-fibers',
         text: 'סיבים אופטיים'
     },
