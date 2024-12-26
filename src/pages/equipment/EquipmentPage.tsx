@@ -1,11 +1,17 @@
 import ListInfoCardList from "../../components/cards/list-informative-card-list/ListInfoCardList";
 import equipmentImage from '../../assets/images/equipment/equipment.jpeg'
+import routerImage from '../../assets/images/equipment/router-image.webp'
+import modemImage from '../../assets/images/equipment/modem.webp'
+import accessPointImage from '../../assets/images/equipment/access-point.webp'
+import switcherImage from '../../assets/images/equipment/switcher.webp'
+import powerlineAdaptersImage from '../../assets/images/equipment/powerline-adapters.webp'
+import networkCardsImage from '../../assets/images/equipment/network-cards.webp'
 import style from './EquipmentPage.module.css'
 
 
 const cablesList = [
     {
-        imgSrc: equipmentImage,
+        imgSrc: routerImage,
         name: 'נתב (Router)',
         description: 'הנתב הוא הלב של הרשת הביתית שלך.',
         infoList: [
@@ -18,7 +24,7 @@ const cablesList = [
         ]
     },
     {
-        imgSrc: equipmentImage,
+        imgSrc: modemImage,
         name: 'מודם (Modem)',
         description: 'המודם מחבר את הבית שלך לספק האינטרנט.',
         infoList: [
@@ -31,7 +37,7 @@ const cablesList = [
         ]
     },
     {
-        imgSrc: equipmentImage,
+        imgSrc: accessPointImage,
         name: 'נקודות גישה (Access Points)',
         description: 'נקודות גישה משפרות את כיסוי ה-Wi-Fi בבית.',
         infoList: [
@@ -40,7 +46,7 @@ const cablesList = [
         ]
     },
     {
-        imgSrc: equipmentImage,
+        imgSrc: switcherImage,
         name: 'סוויץ’ (Switch)',
         description: 'רכיב המיועד להרחבת חיבורי הרשת הקווית בבית.',
         infoList: [
@@ -50,7 +56,7 @@ const cablesList = [
         ]
     },
     {
-        imgSrc: equipmentImage,
+        imgSrc: powerlineAdaptersImage,
         name: 'מתאמי רשת על חשמל (Powerline Adapters)',
         description: 'מאפשרים להעביר חיבור אינטרנט דרך מערכת החשמל הביתית.',
         infoList: [
@@ -59,7 +65,7 @@ const cablesList = [
         ]
     },
     {
-        imgSrc: equipmentImage,
+        imgSrc: networkCardsImage,
         name: 'כרטיסי רשת (Network Cards)',
         description: 'רכיב פנימי או חיצוני המאפשר חיבור לרשת.',
         infoList: [
