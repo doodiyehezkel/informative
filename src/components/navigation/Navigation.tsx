@@ -16,7 +16,7 @@ const navItems = [
     },
     {
         path: 'equipment',
-        text: 'ציוד'
+        text: 'ציוד קצה'
     },
     {
         path: 'optical-fibers',
